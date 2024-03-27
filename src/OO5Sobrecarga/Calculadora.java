@@ -60,6 +60,9 @@ public class Calculadora {
                     int valor3 = teclado.nextInt();
                     System.out.println("Adição 3 valores= " + operacao.soma(valor1, valor2, valor3));
                     break;
+                case 8:
+                    System.out.println("Adição de 2 valores textos= "+operacao.soma(Integer.toString(valor1), Integer.toString(valor2)));
+                    break;
                 default:
                     System.out.println("Operação inválida!");
             }
